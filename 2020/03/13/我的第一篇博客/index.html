@@ -15,12 +15,10 @@
 <meta property="og:site_name" content="Abstrey的个人技术博客">
 <meta property="og:description" content="《图解HTTP》阅读笔记HTTP报文内的HTTP信息 HTTP通信过程包括从客户端发往服务器端的请求，以及从服务器返回客户端的响应。   1. HTTP报文用于HTTP协议交互的信息被称为HTTP报文。请求端（客户端）的HTTP报文叫做请求报文，响应端（服务器端）的叫做响应报文。报文大致可分为报文首部和报文主体两块。由最初出现的空行（CR+LF）来划分。通常并不一定要有报文主体。2. 请求报文及响">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://yoursite.com/.com//03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/1856419-2ea0ce4286e00702.png">
 <meta property="article:published_time" content="2020-03-13T05:17:10.000Z">
-<meta property="article:modified_time" content="2020-03-13T13:46:40.323Z">
+<meta property="article:modified_time" content="2020-03-13T13:56:34.141Z">
 <meta property="article:author" content="Abstrey">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/.com//03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/1856419-2ea0ce4286e00702.png">
   
     <link rel="alternative" href="/atom.xml" title="Abstrey的个人技术博客" type="application/atom+xml">
   
@@ -200,7 +198,7 @@
 </li>
 </ul>
 <h2 id="3-编码提升传输速率"><a href="#3-编码提升传输速率" class="headerlink" title="3. 编码提升传输速率"></a><strong>3. 编码提升传输速率</strong></h2><p>HTTP在传输数据时可以按照数据原貌直接传输，但也可以在传输过程中通过编码提升传输速率。通过在传输时编码，能有效地处理大量的访问请求。但是，编码的操作需要计算机来完成，因此会消耗更多的CPU等资源。</p>
-<h3 id="3-1-报文主体和实体主体的差异"><a href="#3-1-报文主体和实体主体的差异" class="headerlink" title="3.1 报文主体和实体主体的差异"></a>3.1 报文主体和实体主体的差异</h3><img src="/.com//03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/1856419-2ea0ce4286e00702.png" class title="This is an example image">
+<h3 id="3-1-报文主体和实体主体的差异"><a href="#3-1-报文主体和实体主体的差异" class="headerlink" title="3.1 报文主体和实体主体的差异"></a>3.1 报文主体和实体主体的差异</h3>
 <ul>
 <li><font color="green">报文（message）  <ul>
 <li>是HTTP通信中的基本单位，由8位字节流（octet sequence，其中octet为8个比特）组成，通过HTTP通信传输。</li>
